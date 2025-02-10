@@ -10,6 +10,5 @@ Chef.prototype.checkMenu = function() {
 }
 
 let chef = new Chef();
-console.log(chef);
 chef.checkMenu();
 module.exports = { Chef, chef };

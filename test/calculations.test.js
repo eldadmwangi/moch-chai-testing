@@ -5,7 +5,6 @@ describe('Math Functions', () => {
   describe('add two numbers', () => {
     it('should add two numbers correctly', () => {
       const result = doWhateverCalculation(add,[2, 3]);
-      console.log(result);
       expect(result).to.equal(5);
     });
   });
